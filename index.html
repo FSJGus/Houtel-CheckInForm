@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houstel Site</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Signika&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body background="assets/img/bkgrnHOUSTEL.jpg" bgproperties="fixed" bgrepeat="none">
+
+    <nav class="navbar">
+        <a href="#">
+            <p>HOUTEL</p>
+        </a>
+    </nav>
+
+    <header class="container-header">
+        <div class="titleText1">
+            <p>Disfruta de los paisajes de</p>
+        </div>
+        <div class="titleText2">
+            <p>Chile</p>
+        </div>
+        <div class="botonCentrado">
+            <a class="boton" href="#">Más destinos</a>
+        </div>
+    </header>
+
+    <!-- Form Check In -->
+
+    <section class="container-form">
+        <form action="action_page.php">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Lugar u hotel</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Escribe tu destino">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Fecha de llegada</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="datein" name="lastname" placeholder="Busca tu llegada">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Fecha de salida</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="dateout" name="lastname" placeholder="Busca tu salida">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Tipo de alojamiento</label>
+                </div>
+                <div class="col-75">
+                    <select id="roomSize" name="country">
+                        <option value="1">Cantidad de huéspedes</option>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="3">3</option>
+                        <option value="other">Otra cantidad</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Tipo de habitación</label>
+                </div>
+                <div class="col-75">
+                    <select id="roomType" name="country">
+                        <option value="1">Cantidad de habitaciones</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="other">Otra cantidad</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row-button">
+                <input type="submit" value="Buscar">
+            </div>
+        </form>
+    </section>
+<br>
+
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+// Estilos al botón del header
+.botonCentrado {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    top: -70px;
+    left: 70px;
+    background: rgb(71, 184, 146);
+    width: auto;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .botonCentrado:hover {
+    background-color: rgb(147, 147, 147);
+    text-decoration: underline 0.5px;
+  }
+  
+  .botonCentrado a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: $titleFontVerdana;
+    font-size: 14px;
+  }
+  
+
+/* Style the form submit button */
+input[type="submit"] {
+    position: relative;
+    width: 80px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    top: 50%;
+    left: 60%;
+    margin-top: 10px;
+    margin-left: -100px;
+    float: left;
+  }
+  input[type="submit"]:hover {
+    background-color: darkcyan;
+    text-decoration: underline 0.5px;
+
+  }

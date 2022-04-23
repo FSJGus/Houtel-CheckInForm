@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    width: 100%;
+  }
+  nav a {
+    font-family: $titleFontVerdana;
+    font-weight: $boldWeightFont;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    
+  }
